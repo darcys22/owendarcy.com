@@ -1,0 +1,17 @@
+## -*- coding: utf-8 -*-
+
+<%inherit file="top.html" />
+<%block name="title">${post['title']}</%block>
+
+<div class="post-body">
+	<div class="title">
+		<h4 class="post-title"><a href="${post['link']}">${post['title']}</a></h4>
+	</div>
+	<div class="date">
+		<em> ${post['date']} </em>
+	</div>
+	<div class="html">
+		${post['html']}
+	</div>
+</div>
+<br>
